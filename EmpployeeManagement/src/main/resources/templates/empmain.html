@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org" data-ng-app="EmployeeApp">
+<head>
+<script type="text/javascript" src="/hrms/script/angular.min.js"></script>
+<script type="text/javascript" src="/hrms/script/myscript.js"></script>
+<title></title>
+</head>
+
+<body data-ng-controller="EmpController">
+	{{8 * 40}}
+	<table border="0">
+		<tr>
+			<th>Attribute</th>
+			<th>Value</th>
+		</tr>
+		<tr>
+			<td>First Name</td>
+			<td>{{empdata.firstName}}</td>
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td>{{empdata.lastName}}</td>
+		</tr>
+	</table>
+</body>
+</html>
